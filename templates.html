@@ -127,68 +127,138 @@
   </article>
 </template>
 
+<!-- =========================
+     REGION BUTTON — ASHKARRA
+     ========================= -->
+<button class="region-button"
+        data-region="ashkarra"
+        data-template="tpl-ashkarra"
+        data-title="Ashkarra"
+        data-summary="Corsair capital of the highlands. Chain Court rules the canyons. Ember Courts call the crews. Skyships taken in war now fly black flags. Smugglers feed on Crown coin.">
+  <span class="region-name">Ashkarra</span>
+</button>
+
+<!-- =========================
+     TEMPLATE — ASHKARRA
+     ========================= -->
 <template id="tpl-ashkarra">
-  <article class="wiki">
-    <img class="hero" src="https://images.unsplash.com/photo-1604029764824-cf2fbe3c1b3f?q=80&w=1600" alt="Redstone canyon city built on chains and bridges, with sails of sky-rigs visible above the cliffs">
-    <div class="top">
-      <div class="lead">
-        <p><strong>Ashkarra</strong> is the rebel canyon city of the Eastern Highlands. It broke from the Crowned Kingdoms and has never returned. Bridges span red cliffs, chain-oaths seal contracts in the Court, and sky corsairs dock their patched rigs along the canyon wall. What began as a corsair camp has hardened into a city with its own law: swift, transactional, and merciless to outsiders.</p>
-      </div>
-      <aside class="infobox">
-        <h3>At a glance</h3>
-        <dl>
-          <dt>Founded</dt><dd>Early Fourth Century AE </dd>
-          <dt>Seat</dt><dd>The Chain Court</dd>
-          <dt>Character</dt><dd>Outlaw broker city; sky-pirates, raiders, and contract law</dd>
-          <dt>Class</dt><dd>Captains and brokers on the upper spans; crew gangs and riggers below; outsiders pay in advance</dd>
-          <dt>Districts</dt><dd>Chain Court, Span Market, Red Anchor, Sootdeck, Windstairs</dd>
-          <dt>Notables</dt><dd>Magistrate Ral Osk, Captain Naem Karst, Broker Hesh Vale, Ropesmaster Idra Senn</dd>
-        </dl>
-      </aside>
-    </div>
-    <hr class="sep">
+  <article class="wiki city">
+    <header class="wiki-header">
+      <h2>Ashkarra</h2>
+      <p class="subtitle">Corsair capital of the highlands. Law by chain and oath.</p>
+    </header>
 
-    <h3>Districts</h3>
-    <ul>
-      <li><strong>Chain Court</strong> the ruling hall where contracts are chained and judgments weighed. Oaths spoken here bind as tightly as iron.</li>
-      <li><strong>Marketside</strong> planked bridges hung with awnings and ropes; coil-cores, powder, salt meat, and forged writs all sold openly.</li>
-      <li><strong>Red Anchor</strong> drydock ledges where span-runners and rivet-sloops are patched with wire, resin, and whatever canvas still holds air.</li>
-      <li><strong>Sooty bottoms</strong> forge halls and engine cradles black with smoke. Apprentices here age in months, not years.</li>
-      <li><strong>Windstairs</strong> cliffside inns and crew houses. Fights end at the bell or when Idra’s wardens cut the lines to scatter combatants.</li>
-    </ul>
+    <!-- At a glance -->
+    <section>
+      <h3>At a glance</h3>
+      <ul>
+        <li><strong>Founded</strong> After 0 AE as outlaw haven</li>
+        <li><strong>Seat</strong> Chain Court</li>
+        <li><strong>Character</strong> Canyon city of rigging, smoke, and stolen hulls</li>
+        <li><strong>Trade</strong> Salvage, refit yards, contraband, escort fees, prize cargo</li>
+        <li><strong>Districts</strong> Chain Court, Ember Courts, Redwater Spans, Hookmarket, Black Slipyards, Hearth Caves</li>
+        <li><strong>Notables</strong> Matriarch Kaelen of the House of Chains, Serayne Black Sail, Korrin Chainbreaker, the Shardmothers</li>
+      </ul>
+    </section>
 
-    <h3>Current Affairs</h3>
-    <ul>
-      <li>The Chain Court has rejected Crown tariffs, declaring all seizures “beyond sight of land” exempt. Osk enforces his own levy instead.</li>
-      <li>Karst and two other captains signed no-raid compacts with the Veythmir River Guild, turning corsair raids into contracted escorts.</li>
-      <li>A main span cracked last month under the weight of traffic; Senn races to thread new cable before trade halts completely.</li>
-    </ul>
+    <!-- Districts and Landmarks -->
+    <section>
+      <h3>Districts and landmarks</h3>
+      <ul class="bulleted">
+        <li><strong>Chain Court</strong> Stone ring lined with anchor posts. Captains tie in before judgment. Oaths bind with iron and salt.</li>
+        <li><strong>Ember Courts</strong> Night gatherings where crews choose routes, sell prizes, and set shares. Fires light the cliff walls.</li>
+        <li><strong>Redwater Spans</strong> Rope and iron bridges over the gorge. Harpoon cranes swing cargo between ledges.</li>
+        <li><strong>Hookmarket</strong> Stalls of rope, tar, hooks, and charts. Brokers whisper about targets and escorts.</li>
+        <li><strong>Black Slipyards</strong> Drydocks cut into canyon stone. Skyframes and river hulls are stripped and rebuilt.</li>
+        <li><strong>Hearth Caves</strong> Carved homes behind shuttered doors. Children learn knots before letters.</li>
+      </ul>
+    </section>
 
-    <h3>Lore</h3>
-    <details class="canon" open>
-      <summary>Extended lore</summary>
-      <div>
-        <p><strong>Overview</strong> Ashkarra thrives on contradiction: rebel city and trade hub, pirate port and contract court. Here theft becomes tariff, raids become escort, and outlaw becomes magistrate — provided the chain is pledged and the contract sealed.</p>
-        <p><strong>Government</strong> The Chain Court does not debate; it tallies. Chains pledged and coin posted matter more than words. Verdicts are measured by weight, not rhetoric, and an empty chest shortens any captain’s defense.</p>
-        <p><strong>Culture and class</strong> Captains and brokers live above on the high spans, dealing in contracts and coin. Crew gangs rattle in deck houses with hammocks stacked three high. Outsiders are charged at both ends of the bridge — once to enter, again to leave.</p>
-        <p><strong>Industry</strong> Air-rig repair and contraband brokerage dominate the spans. Canyon seams provide ore, while smuggled coil-cores vanish into Ashkarra whenever Veythmir audits too hard.</p>
-        <p><strong>Faith and rite</strong> No temple stands here. Oaths sworn in the Court bind tighter than prayer. Crews carry broken links of chain as tokens of debt and verdict.</p>
-        <p><strong>Underworld</strong> The underworld is the city itself. Brokers like Hesh Vale thrive in the open, weighing debts at half their worth and selling the remainder twice over.</p>
-        <p><strong>Relations</strong> Veythmir denounces corsairs yet hires them as escorts. The Night Baronies pay in velvet and wax, sending letters that smell of blood. Polar wardens demand fees and leave cheated for their trouble.</p>
-        <p><strong>District detail</strong></p>
-        <ul>
-          <li><em>Chain Court</em> Osk keeps ledgers chained to the benches; verdicts ring out by striking links like a bell.</li>
-          <li><em>Span Market</em> Guild scribes tally every contract aloud; thieves wait until the ink dries.</li>
-          <li><em>Red Anchor</em> Karst’s runner is docked here, hull shortened and keel reinforced for canyon speed.</li>
-          <li><em>Sootdeck</em> Black smoke fouls every mouth; apprentices lose their hair by twenty.</li>
-          <li><em>Windstairs</em> Idra’s wardens carry hooks, not swords, ending fights by cutting lines instead of throats.</li>
-        </ul>
-        <p><strong>Notables</strong> <em>Ral Osk</em> tallies chains faster than most men speak. <em>Naem Karst</em> flies a span-runner stripped for speed. <em>Hesh Vale</em> can turn any debt into profit twice over. <em>Idra Senn</em> knows every knot that holds the city together and keeps them tied at her word.</p>
-        <p><strong>Air and trade</strong> <em>Span-runners</em> are fast, light rigs suited to canyon winds. <em>Rivet-sloops</em> are heavy, stubborn frames built for storms. Both crowd the docks of Red Anchor, patched more with history than cloth.</p>
-      </div>
-    </details>
+    <!-- Culture and Daily Life -->
+    <section>
+      <h3>Culture and daily life</h3>
+      <p>
+        Crews sleep in hammocks and on ledges. Nets hang where laundry dries and weapons rest.
+        A good knot and a clean ledger earn respect. Story nights in the Ember Courts trade charts for songs.
+        Ashkarra values skill, nerve, and a fair cut more than birth or title.
+      </p>
+    </section>
+
+    <!-- Government and Law -->
+    <section>
+      <h3>Government and law</h3>
+      <p>
+        The Chain Court rules by oath. Captains and quartermasters stand in the ring and speak in turn.
+        Fines pay the widows. Liars lose a share. Oathbreakers leave by the long bridge with no rope.
+        Matriarch Kaelen holds the Court steady and settles feuds before they spill into the markets.
+      </p>
+    </section>
+
+    <!-- Industry and War -->
+    <section>
+      <h3>Industry and war</h3>
+      <p>
+        The Black Slipyards refit captured hulls and Crown frames. Chain-shot and harpoon rigs are forged in cliff forges.
+        Escort work buys food when raids run thin. Crews know Crown cannon ranges and how to climb under them.
+        Several skyframes taken in the Broken Tide War still fly with new names and dark paint.
+      </p>
+    </section>
+
+    <!-- Faith and Rite -->
+    <section>
+      <h3>Faith and rite</h3>
+      <p>
+        Ships and bridges take first blessing. Captains leave salt and iron at the Court posts.
+        A child who ties the Court knot earns a copper and a name. Funerals go to the river with torches on the spans.
+      </p>
+    </section>
+
+    <!-- Underworld -->
+    <section>
+      <h3>Underworld</h3>
+      <p>
+        Hookmarket brokers move contraband from every coast. A quiet cut goes to the Court.
+        Deals with Veythmir include guards for barges and, at times, a stolen barge when the rate slips.
+        No one sells slaves in Ashkarra. A seller does not leave the canyon.
+      </p>
+    </section>
+
+    <!-- Relations -->
+    <section>
+      <h3>Relations</h3>
+      <p>
+        Veythmir pays for escorts and loses cargo when its purse is light. The Crowns call Ashkarra pirates and still hire them.
+        Skathra trade scrap and storm glass when the winds settle. The Night Baronies send buyers for silk, ink, and salt.
+      </p>
+    </section>
+
+    <!-- Timeline -->
+    <section>
+      <h3>Timeline</h3>
+      <ul class="timeline">
+        <li><strong>0 AE</strong> Refugees and exiles gather in the highland canyons. Ashkarra forms around the first Court posts.</li>
+        <li><strong>First Age</strong> Secession grows under Karrak the Oathbreaker. Crews raid river tolls and Crown depots.</li>
+        <li><strong>Third Century AE</strong> Serayne Black Sail rises. The Crimson Judge keeps outlaw justice at the spans.</li>
+        <li><strong>364 AE</strong> Broken Tide War. Ashkarra captures Crown skyships with chain-shot and harpoons.</li>
+        <li><strong>367 AE</strong> Orrek Flamesong unifies the highlands. The Court posts are set in stone.</li>
+        <li><strong>Fifth Century AE</strong> Korrin Chainbreaker and the Shardmothers expand the slipyards and bridge forges.</li>
+        <li><strong>Present</strong> Matriarch Kaelen of the House of Chains rules the Chain Court. Ember Courts remain full. The slipyards work by torchlight.</li>
+      </ul>
+    </section>
+
+    <!-- Notable Figures -->
+    <section>
+      <h3>Notable figures</h3>
+      <ul class="notables">
+        <li><strong>Matriarch Kaelen of the House of Chains</strong> settles feuds and sets shares. Crews listen.</li>
+        <li><strong>Serayne Black Sail</strong> famed raider and court voice. Her charts still guide night runs.</li>
+        <li><strong>Korrin Chainbreaker</strong> yard master who rebuilt captured frames. Known for iron calm.</li>
+        <li><strong>The Shardmothers</strong> founders of the cliff forges. They judge metal by sound.</li>
+      </ul>
+    </section>
   </article>
 </template>
+
 <template id="tpl-mawrange">
   <article class="wiki">
     <img class="hero" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1600" alt="Snow-edged mountains with terraces carved into the slopes and prayer flags strung across a high pass">
